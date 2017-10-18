@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block main %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <div class="widewrapper main">
+        <div class="container about">
+            <h1>Hello, My name is <span class="about-bold">  John Doe</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+
+            <div class="about-button">
+                <a class="btn btn-xlarge btn-clean-one" href="{% url 'blog:contact' %}">Contact Me<<<</a>
+            </div>
+            <hr>
+        </div>
+</body>
+</html>
+{% endblock main %}
